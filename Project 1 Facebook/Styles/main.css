@@ -1,0 +1,247 @@
+.section {
+  width: 500px;
+  height: 2000px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 430px;
+  margin-top: 70px;
+  border: none;
+  border-radius: 10px;
+
+}
+
+
+
+
+.stories-reels-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+.story-button,
+.reels-button {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  background-color: white;
+
+}
+
+.stories-reels-button button:hover {
+
+  color: gray;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+
+.stories-reels-button button img {
+  width: 20px;
+  padding-right: 10px;
+}
+
+.feeds {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 2px;
+  padding-left: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 10px;
+}
+
+.feeds img {
+  margin-bottom: 10px;
+  border-radius: 6px;
+
+}
+
+.post-container {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px 10px;
+
+}
+
+.post-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  padding-bottom: 10px;
+
+}
+
+.post-input img {
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.post-input input {
+  height: 40px;
+  width: 415px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 237, 237);
+  font-size: 16px;
+  padding-left: 18px;
+  color: gray;
+
+}
+
+.post-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.post-options button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: roboto;
+  color: rgb(197, 194, 194);
+  padding: 8px 15px;
+  border-radius: 10px;
+
+}
+
+.post-options button:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.post-options button img {
+  margin-right: 10px;
+}
+
+.profile-stats {
+  margin-bottom: 5px;
+}
+
+.prof-pic-name-close {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(102, 99, 99);
+  font-family: arial;
+  font-size: 14px;
+
+}
+
+
+.prof-pic-name-close div {
+  margin-right: 120px;
+}
+
+.prof-pic-name-close img {
+  border-radius: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+}
+
+.prof-pic-name-close button {
+  background-color: transparent;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 0px;
+  vertical-align: middle;
+}
+
+.prof-pic-name-close button:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.prof-pic-name-close button img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+
+}
+
+.post-caption {
+  margin-bottom: 5px;
+  margin-left: 12px;
+  font-family: arial;
+  font-size: 14px;
+}
+
+
+.post-picture img {
+  width: 500px;
+}
+
+.post-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  color: rgb(102, 99, 99);
+  border-bottom-color: lightgray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.post-stats img {
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+
+}
+
+.like-icon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon-share {
+  vertical-align: middle;
+}
+
+.icon-share:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon-share img {
+  height: 20px;
+}

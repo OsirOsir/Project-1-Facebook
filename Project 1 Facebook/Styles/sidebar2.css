@@ -1,0 +1,153 @@
+.side-bar2 {
+  position: fixed;
+  background-color: #dbd8d8;
+  width: 350px;
+  top: 55px;
+  right: 0;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+}
+
+.sidebar-link-2 {
+  padding: 7px 19px;
+}
+
+.Title-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(163, 153, 153);
+}
+
+.Title-1 button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: whitesmoke;
+
+}
+
+.Title-1 button:hover {
+  background-color: rgb(212, 204, 204);
+  cursor: pointer;
+}
+
+.Title-1 button img {
+  height: 25px;
+  object-fit: cover;
+}
+
+.Title-2 {
+  margin-top: 15px;
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #a7a3a3;
+}
+
+.main-sub-title {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(48, 45, 45);
+  display: flex;
+  align-items: center;
+  padding: 9px 9px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+.main-sub-title:hover {
+  background-color: #b4afaf;
+  cursor: pointer;
+}
+
+.main-sub-title img {
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.sub-title {
+  margin-left: 20px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 12px;
+  padding: 8px 8px;
+
+}
+
+.sub-title img {
+  height: 20px;
+  margin-right: 4px;
+}
+
+.sub-title:hover {
+  background-color: #b4afaf;
+  cursor: pointer;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+.main-sub-title2 {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 9px 9px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  line-height: 20px;
+
+}
+
+.main-sub-title2:hover {
+  background-color: #dbd8d8;
+  cursor: pointer;
+}
+
+.main-sub-title2 img {
+  height: 36px;
+  border-radius: 18px;
+  margin-right: 10px;
+}
+
+.contact-tooltip {
+  position: absolute;
+  right: 3px;
+  bottom: -35px;
+  padding: 12px 9px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  opacity: 0;
+  overflow-wrap: normal;
+  transition: opacity 0.15s;
+}
+
+.Title-1 button:hover .contact-tooltip {
+  opacity: 1;
+}
+
+.dot {
+  position: absolute;
+  bottom: 3px;
+  right: 257px;
+  font-size: 25px;
+  color: green;
+  border-radius: 20px;
+
+}
